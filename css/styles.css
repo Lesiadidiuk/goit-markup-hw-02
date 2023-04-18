@@ -1,0 +1,50 @@
+:root {
+  /* Fonts */
+  --logo-font: Raleway, sans-serif;
+  /* Colors */
+  --logo-web-color: #4d5ae5;
+  --logo-studio-dark-color: #2e2f42;
+  --logo-studio-light-color: #f4f4fd;
+  --nav-item-color: #2e2f42;
+  --address-color: #434455;
+  --hero-bg-color: #2e2f42;
+  --light-bg-color: #f4f4fd;
+  --dark-bg-color: #2e2f42;
+  --hero-title-color: #fff;
+  --btn-color: #4d5ae5;
+  --hover-color: #404bbf;
+  --main-text-light-color: #f4f4fd;
+  --title-dark-color: #2e2f42;
+  --main-text-dark-color: #434455;
+}
+/* General */
+.list {
+  list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  color: var(--main-text-dark-color);
+  background-color: #fff;
+}
+
+.section-title {
+    color: var(--title-dark-color);
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+  .btn {
+    cursor: pointer;
+  }
+  .link {
+    text-decoration: none;
+  }
+  /* Header */
